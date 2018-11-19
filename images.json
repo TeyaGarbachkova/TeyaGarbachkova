@@ -1,0 +1,129 @@
+
+  [
+    {
+      "id": 1,
+      "type": "image",
+      "url": "images/model.jpg",
+      "title": "Model",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "author": "Георги Димитров",
+      "media": "vesti.bg"
+    },
+
+    {
+      "id": 2,
+      "type": "image",
+      "url": "images/singer.jpg",
+      "title": "Model",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "author": "Васил Крумов",
+      "media": "gong.bg"
+    },
+
+    {
+      "id": 3,
+      "type": "image",
+      "url": "https://68.media.tumblr.com/9f6f1e5460a46f4a7fa8c098dc5640d3/tumblr_on36eqLWVA1qz7ur9o1_540.jpg",
+      "title": "Barcelona",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "author": "Иван Иванов",
+      "media": "vesti.bg"
+    },
+
+    {
+      "type": "banner",
+      "url": "images/mobile-banner.jpg",
+      "title": "Banner"
+    },
+
+    {
+      "id": 4,
+      "type": "image",
+      "url": "https://66.media.tumblr.com/8647cda79e25754c8e47d01a8cfd4d97/tumblr_obzannm7fP1qz7ur9o1_540.jpg",
+      "title": "Estadio Monumental River",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "author": "Теодора Златкова",
+      "media": "news.com"
+    },
+
+    {
+      "id": 5,
+      "type": "image",
+      "url": "http://66.media.tumblr.com/3453ff27919cf46b7955e28f71c254c4/tumblr_obza4vDzSq1qz7ur9o1_540.jpg",
+      "title": "Port of Miami",
+      "description": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "author": "Мария Игнатова",
+      "media": "nova.com"
+    },
+
+    {
+      "id": 6,
+      "type": "image",
+      "url": "http://66.media.tumblr.com/09784396750c3cdfab2cb0d5379f2160/tumblr_nogpcm9V3V1qz7ur9o7_540.jpg",
+      "title": "Ferrari",
+      "description": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "author": "Йорданка Динева",
+      "media": "vesti.bg"
+    },
+
+    {
+      "id": 7,
+      "type": "image",
+      "url": "https://66.media.tumblr.com/8647cda79e25754c8e47d01a8cfd4d97/tumblr_obzannm7fP1qz7ur9o1_540.jpg",
+      "title": "Estadio Monumental River",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "author": "Теодора Златкова",
+      "media": "news.com"
+    },
+
+    {
+      "id": 8,
+      "type": "image",
+      "url": "http://66.media.tumblr.com/3453ff27919cf46b7955e28f71c254c4/tumblr_obza4vDzSq1qz7ur9o1_540.jpg",
+      "title": "Port of Miami",
+      "description": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "author": "Мария Игнатова",
+      "media": "nova.com"
+    },
+
+    {
+      "id": 9,
+      "type": "image",
+      "url": "http://66.media.tumblr.com/09784396750c3cdfab2cb0d5379f2160/tumblr_nogpcm9V3V1qz7ur9o7_540.jpg",
+      "title": "Ferrari",
+      "description": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "author": "Йорданка Динева",
+      "media": "vesti.bg"
+    },
+
+    {
+      "id": 10,
+      "type": "image",
+      "url": "https://66.media.tumblr.com/8647cda79e25754c8e47d01a8cfd4d97/tumblr_obzannm7fP1qz7ur9o1_540.jpg",
+      "title": "Estadio Monumental River",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      "author": "Теодора Златкова",
+      "media": "news.com"
+    },
+
+    {
+      "id": 11,
+      "type": "image",
+      "url": "http://66.media.tumblr.com/3453ff27919cf46b7955e28f71c254c4/tumblr_obza4vDzSq1qz7ur9o1_540.jpg",
+      "title": "Port of Miami",
+      "description": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "author": "Мария Игнатова",
+      "media": "nova.com"
+    },
+
+    {
+      "id": 12,
+      "type": "image",
+      "url": "http://66.media.tumblr.com/09784396750c3cdfab2cb0d5379f2160/tumblr_nogpcm9V3V1qz7ur9o7_540.jpg",
+      "title": "Ferrari",
+      "description": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+      "author": "Йорданка Динева",
+      "media": "vesti.bg"
+    }
+  ]
+
