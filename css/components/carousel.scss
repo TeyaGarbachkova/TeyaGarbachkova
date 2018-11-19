@@ -1,0 +1,248 @@
+.carousel {
+  position: relative;
+  background: #eae9e9;
+
+  @media screen and (max-width: 1199px) {
+      background: transparent;
+  }
+
+  &-images {
+    font-size: 14px;
+    min-height: 810px;
+    position: relative;
+  }
+
+  &-title {
+    @include styleText(NotoSerifBold, 13px, $primary-color);
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 15px;
+    display: inline-block;
+  }
+
+  &-article {
+    &_title {
+      @include styleText(NotoSerifRegular, 20px, $secondary-color);
+      padding: 20px 0;
+    }
+
+    &_desc {
+      overflow: auto;
+
+      &-date {
+        @include styleText(NotoSerifRegular, 13px, #808080);
+        float: left;
+        margin-top: 12px;
+      }
+
+      &-fbLink {
+        @include styleText(NotoSerifBold, 18px, $primary-color);
+        border: 1px solid $primary-color;
+        padding: 5px 20px 5px 40px;
+        position: relative;
+        float: right;
+
+        @media screen and (max-width: 1199px) {
+          display: none;
+        }
+      }
+
+      &-fbLink:before {
+        content: '';
+        background: url("../images/sprite.png") -106px 0;
+        width: 15px;
+        height: 30px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 10px;
+      }
+    }
+  }
+
+  &-banner {
+    margin-top: 25px;
+
+    @media screen and (max-width: 1199px) {
+      display: none;
+    }
+  }
+}
+
+.gallery-wrap_title {
+  @media screen and (max-width: 1199px) {
+    background: #eae9e9;
+  }
+}
+
+.arrows {
+  position: absolute;
+  z-index: 999999;
+
+  @media screen and (max-width: 1199px) {
+    display: none;
+  }
+
+  &.arrow-next {
+    top: 35%;
+    right: 0;
+  }
+
+  &.arrow-prev {
+    top: 35%;
+    left: 0;
+  }
+}
+
+.content {
+  margin: 0;
+  padding: 0;
+}
+
+.current {
+  display: block !important;
+}
+
+.sliderItem {
+  width: 100%;
+  list-style: none;
+  background: #eae9e9;
+  overflow: auto;
+  margin-bottom: 1px;
+  padding: 0 30px;
+
+  @media screen and (max-width: 1199px) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  &_img {
+    min-width: 820px;
+    width: 100%;
+    min-height: 620px;
+    height: 100%;
+    margin-bottom: 20px;
+    overflow: auto;
+    position: relative;
+
+    @media screen and (max-width: 1199px) {
+      min-width: auto;
+      width: auto;
+      min-height: 100%;
+      height: auto;
+    }
+
+    .item {
+      width: auto;
+      max-height: 810px;
+
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+
+      @media screen and (max-width: 1199px) {
+        position: relative;
+      }
+    }
+  }
+
+  &_count {
+    float: left;
+  }
+
+  &_num {
+    @include styleText(FiraSansRegular, 24px, #ff7800);
+  }
+
+  &_line {
+    @include styleText(FiraSansBold, 24px, #d2d2d2);
+  }
+
+  &_total {
+    @include styleText(FiraSansRegular, 24px, $secondary-color);
+  }
+
+  &_description {
+    margin-left: 20px;
+    width: 92%;
+    float: left;
+
+    &-text {
+      @include styleText(FiraSansRegular, 17px, $secondary-color);
+      font-size: calc(14px + (17 - 14) * ((100vw - 320px) / (1920 - 320)));
+      line-height: 24px;
+    }
+
+    &-subtext {
+      padding-top: 15px;
+      padding-bottom: 35px;
+
+      @media screen and (max-width: 1199px) {
+        padding-top: 20px;
+        padding-bottom: 0;
+      }
+    }
+  }
+
+  &_description-author, &_description-line, &_description-media {
+    @include styleText(NotoSerifItalic, 11px, #999999);
+  }
+}
+
+
+
+.sliderItem_img--effect .item {
+  opacity: 1;
+  -webkit-animation: flash 3.5s;
+  animation: flash 3.5s;
+}
+
+@-webkit-keyframes flash {
+  0% {
+    opacity: .4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes flash {
+  0% {
+    opacity: .4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+.curmudgeon::before {
+  border-bottom: 3px solid #FFF;
+  border-left: 0;
+  -webkit-transform-origin: 0% 100%;
+}
+
+.curmudgeon::after {
+  border-top: 0;
+  border-right: 0;
+  -webkit-transform-origin: 50% 50%;
+}
+
+
+.sliderItem_banner {
+  text-align: center;
+  width: 100%;
+  max-width: 300px;
+  height: 250px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.banner-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

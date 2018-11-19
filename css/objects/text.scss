@@ -1,0 +1,4 @@
+.btn-text {
+  @include styleText(NotoSerifBold, 14px, $primary-color);
+  text-transform: uppercase;
+}

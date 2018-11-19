@@ -1,0 +1,10 @@
+@mixin styleText($fontFamily, $fontSize, $color) {
+  font-family: $fontFamily;
+  font-size: $fontSize;
+  color: $color;
+}
+
+@mixin fontFamily($fontFamily, $src) {
+  font-family: $fontFamily;
+  src: $src;
+}

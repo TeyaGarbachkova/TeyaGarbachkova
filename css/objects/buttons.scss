@@ -1,0 +1,48 @@
+.btn-primary.animated-button {
+  width: 180px;
+  background-color: #ffffff;
+  color: $primary-color;
+  border: 1px solid $primary-color;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  border-radius: 0;
+  transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:active:hover,
+.btn-primary:active:focus {
+  color: #ffffff;
+  background-color: $primary-color;
+  border: 1px solid $primary-color;
+}
+
+.animated-button:hover {
+  color: #ffffff !important;
+  background-color: transparent;
+}
+
+.animated-button:hover:before {
+  left: 0;
+  right: auto;
+  width: 100%;
+}
+
+.animated-button:before {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 0;
+  z-index: -1;
+  content: '';
+  color: #ffffff !important;
+  background: $primary-color;
+  transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}

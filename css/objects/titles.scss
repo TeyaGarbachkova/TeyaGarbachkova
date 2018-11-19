@@ -1,0 +1,4 @@
+.title {
+  @include styleText(NotoSerifRegular, 33px, $primary-color);
+  padding-bottom: 20px;
+}

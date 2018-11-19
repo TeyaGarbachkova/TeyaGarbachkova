@@ -1,0 +1,39 @@
+//color
+$primary-color: #2a53c1;
+$secondary-color: #000000;
+
+
+//font-family
+@font-face {
+  font-family: FiraSansRegular;
+  src: url(../fonts/fira-sans/FiraSans-Regular.otf);
+}
+
+@font-face {
+  font-family: FiraSansBold;
+  src: url(../fonts/fira-sans/FiraSans-Bold.otf);
+}
+
+@font-face {
+  font-family: NotoSerifRegular;
+  src: url(../fonts/noto-serif/NotoSerif-Regular.ttf);
+}
+
+@font-face {
+  font-family: NotoSerifItalic;
+  src: url(../fonts/noto-serif/NotoSerif-Italic.ttf);
+}
+
+@font-face {
+  font-family: NotoSerifBold;
+  src: url(../fonts/noto-serif/NotoSerif-Bold.ttf);
+}
+
+
+a:hover {
+  text-decoration: none;
+}
+
+body {
+  font-size: 16px;
+}
